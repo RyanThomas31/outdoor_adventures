@@ -1,0 +1,61 @@
+#slideshow {
+    overflow: hidden;
+    height: 292px;
+    width: 520px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 2080px;
+    animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 292px;
+    width: 520px;
+  }
+  
+  .slide:nth-child(1) {
+    background: url("../images/rockClimbing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide:nth-child(2) {
+    background: url("../images/hiking.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide:nth-child(3) {
+    background: url("../images/tentCamping.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide:nth-child(4) {
+    background: url("../images/fishing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slideText {
+    color: #fff;
+    text-align: center;
+    font-size: 5em;
+  }
+  
+  @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -520px;}
+    50% {margin-left: -520px;}
+    60% {margin-left: -1040px;}
+    70% {margin-left: -1040px;}
+    80% {margin-left: -1560px;}
+    90% {margin-left: -1560px;}
+  }

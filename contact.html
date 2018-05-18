@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> OutDoor Adventures </title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+  </head>
+  <body align="center">
+      <header class="contactHead">
+          <h1>Outdoor Adventures</h1>
+          <h2>Contact US</h2>
+          <div class="topnav" id="myTopnav">
+              <a href="./index.html" class="active">Home</a>
+              <a href="./contact.html">Contact</a>
+              <div class="dropdown">
+                  <button class="dropbtn">Gallery 
+                  <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                      <a href="./gallery.html#rock">Rock Climbing</a>
+                      <a href="./gallery.html#hike">Hiking</a>
+                      <a href="./gallery.html#camp">Camping</a>
+                      <a href="./gallery.html#fish">Fishing</a>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <br>
+      <br>
+        <table align="center" border="0">
+          <tr>
+            <td><label>Full Name</label></td>
+            <td><input type="text" placeholder="Full Name" required></td>
+          </tr>
+          <tr>
+            <td><label>Country</label></td>
+            <td><select>
+              <option value="PS" disabled selected>(Please select a country)</option>
+              <option value="SA" required>South Africa</option>
+              <option value="AM">Amsterdam</option>
+              <option value="other">Other</option></td>
+            </select>
+          </tr>
+          <tr>
+            <td><label>Zip Code</label></td>
+            <td><input type="number" name="zip" value="zipcode" min="1000" max="9999" required></td>
+          </tr>
+          <tr>
+            <td><label>Email</label></td>
+            <td><input type="email" placeholder="someone@konjavels.com" required></td>
+          </tr>
+
+          <tr>
+            <td><label>Sex</label></td>
+            <td><input type="radio" name="Sex" value="Male" required>Male
+            <input type="radio" name="Sex" value="Female">Female</td>
+          </tr>
+
+          <tr>
+            <td><label>Activity</label></td>
+            <td><input type="checkbox" name="activity" value="rockClimbing" required checked>Rock Climbing
+            <input type="checkbox" name="activity" value="hiking">Hiking
+            <input type="checkbox" name="activity" value="camping">Camping
+            <input type="checkbox" name="activity" value="fishing">Fishing
+          </td>
+          </tr>
+          <tr>
+            <td><label>Message:</label></td>
+            <td><textarea name="message" rows="10" cols="30" optional placeholder="Optional"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><input type="submit" value="SEND"></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><button type="reset">Try Again</button></td>
+          </tr>
+        </table>
+      </form>
+  </body>
+</html>
