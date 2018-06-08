@@ -10,6 +10,7 @@
                          'sideBar slides avail'
                          'sideBar about about'
                          'act1 act1 act1'
+                         'info1 info1 info1'
                          'act1img act1img act1img'
                          'act1img act1img act1img'
                          'act2 act2 act2'
@@ -35,12 +36,65 @@
             text-align: center;
             margin-left: 90px;
             margin-top: 35px;
-            button {
+            .button1{
                 height: 80px;
                 width: 200px;
-                font-family: $h1Font;
-                background-color: $navBg;
-                color: #fff;
+                text-align: center;
+                background: url('../images/rockClimbing.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                a {
+                    line-height: 79px;
+                    color: rgb(44, 255, 2);
+                    font-weight: bolder;
+                    font-size: 20px;
+                    background-color: rgba(8, 8, 8, 0.596);
+                }
+            }
+            .button2{
+                height: 80px;
+                width: 200px;
+                text-align: center;
+                background: url('../images/hiking.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                a {
+                    line-height: 79px;
+                    color: rgb(44, 255, 2);
+                    font-weight: bolder;
+                    font-size: 20px;
+                    background-color: rgba(8, 8, 8, 0.596);
+                }
+            }
+            .button3{
+                height: 80px;
+                width: 200px;
+                text-align: center;
+                background: url('../images/tentCamping.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                a {
+                    line-height: 79px;
+                    color: rgb(44, 255, 2);
+                    font-weight: bolder;
+                    font-size: 20px;
+                    background-color: rgba(8, 8, 8, 0.596);
+                }
+            }
+            .button4{
+                height: 80px;
+                width: 200px;
+                text-align: center;
+                background: url('../images/fishing.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                a {
+                    line-height: 79px;
+                    color: rgb(44, 255, 2);
+                    font-weight: bolder;
+                    font-size: 20px;
+                    background-color: rgba(8, 8, 8, 0.596);
+                }
             }
         }
 
@@ -82,6 +136,12 @@
         font-size: 2em;
     }
 
+    .act1info {
+        grid-area: info1;
+        border: 1px solid black;
+        width: 100%;
+    }
+
     .outdoorAct1imgs {
         grid-area: act1img;
         // border: 1px solid black;
@@ -97,6 +157,11 @@
             width: 100%;
             font-size: 3em;
             text-align: center;
+
+            a {
+                text-decoration: none;
+                background-color: rgba(8, 8, 8, 0.596);
+            }
 
             p {
                 margin-top: 118px;
@@ -159,6 +224,11 @@
             width: 100%;
             font-size: 3em;
             text-align: center;
+
+            a {
+                text-decoration: none;
+                background-color: rgba(8, 8, 8, 0.596);
+            }
             p {
                 margin-top: 118px;
                 color: red;
@@ -220,6 +290,11 @@
             font-size: 3em;
             text-align: center;
 
+            a {
+                text-decoration: none;
+                background-color: rgba(8, 8, 8, 0.596);
+            }
+
             p {
                 margin-top: 118px;
                 color: red;
@@ -264,6 +339,11 @@
             width: 100%;
             font-size: 3em;
             text-align: center;
+
+            a {
+                text-decoration: none;
+                background-color: rgba(8, 8, 8, 0.596);
+            }
 
             p {
                 margin-top: 118px;

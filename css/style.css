@@ -1,6 +1,6 @@
 .topnav {
   overflow: hidden;
-  background-color: #333; }
+  background-color: green; }
 
 .topnav a {
   float: left;
@@ -94,7 +94,7 @@
   width: 100%;
   margin-top: 68px;
   display: grid;
-  grid-template-areas: 'sideBar slides avail' 'sideBar slides avail' 'sideBar about about' 'act1 act1 act1' 'act1img act1img act1img' 'act1img act1img act1img' 'act2 act2 act2' 'act2img act2img act2img' 'act2img act2img act2img' 'act3 act3 act3' 'act3img act3img act3img' 'act3img act3img act3img' 'act4 act4 act4' 'act4img act4img act4img' 'act4img act4img act4img';
+  grid-template-areas: 'sideBar slides avail' 'sideBar slides avail' 'sideBar about about' 'act1 act1 act1' 'info1 info1 info1' 'act1img act1img act1img' 'act1img act1img act1img' 'act2 act2 act2' 'act2img act2img act2img' 'act2img act2img act2img' 'act3 act3 act3' 'act3img act3img act3img' 'act3img act3img act3img' 'act4 act4 act4' 'act4img act4img act4img' 'act4img act4img act4img';
   grid-gap: 5px;
   grid-auto-columns: 1fr 1fr 1fr; }
   .container .sideBar {
@@ -106,12 +106,58 @@
       text-align: center;
       margin-left: 90px;
       margin-top: 35px; }
-      .container .sideBar .navButtons button {
+      .container .sideBar .navButtons .button1 {
         height: 80px;
         width: 200px;
-        font-family: "Rock Salt", cursive;
-        background-color: green;
-        color: #fff; }
+        text-align: center;
+        background: url("../images/rockClimbing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .container .sideBar .navButtons .button1 a {
+          line-height: 79px;
+          color: #2cff02;
+          font-weight: bolder;
+          font-size: 20px;
+          background-color: rgba(8, 8, 8, 0.596); }
+      .container .sideBar .navButtons .button2 {
+        height: 80px;
+        width: 200px;
+        text-align: center;
+        background: url("../images/hiking.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .container .sideBar .navButtons .button2 a {
+          line-height: 79px;
+          color: #2cff02;
+          font-weight: bolder;
+          font-size: 20px;
+          background-color: rgba(8, 8, 8, 0.596); }
+      .container .sideBar .navButtons .button3 {
+        height: 80px;
+        width: 200px;
+        text-align: center;
+        background: url("../images/tentCamping.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .container .sideBar .navButtons .button3 a {
+          line-height: 79px;
+          color: #2cff02;
+          font-weight: bolder;
+          font-size: 20px;
+          background-color: rgba(8, 8, 8, 0.596); }
+      .container .sideBar .navButtons .button4 {
+        height: 80px;
+        width: 200px;
+        text-align: center;
+        background: url("../images/fishing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .container .sideBar .navButtons .button4 a {
+          line-height: 79px;
+          color: #2cff02;
+          font-weight: bolder;
+          font-size: 20px;
+          background-color: rgba(8, 8, 8, 0.596); }
   .container #slideshow {
     grid-area: slides;
     border: 1px solid black; }
@@ -135,6 +181,10 @@
     background-color: khaki;
     text-align: center;
     font-size: 2em; }
+  .container .act1info {
+    grid-area: info1;
+    border: 1px solid black;
+    width: 100%; }
   .container .outdoorAct1imgs {
     grid-area: act1img;
     display: grid;
@@ -147,6 +197,9 @@
       width: 100%;
       font-size: 3em;
       text-align: center; }
+      .container .outdoorAct1imgs .img a {
+        text-decoration: none;
+        background-color: rgba(8, 8, 8, 0.596); }
       .container .outdoorAct1imgs .img p {
         margin-top: 118px;
         color: red; }
@@ -192,6 +245,9 @@
       width: 100%;
       font-size: 3em;
       text-align: center; }
+      .container .outdoorAct2imgs .img a {
+        text-decoration: none;
+        background-color: rgba(8, 8, 8, 0.596); }
       .container .outdoorAct2imgs .img p {
         margin-top: 118px;
         color: red; }
@@ -237,6 +293,9 @@
       width: 100%;
       font-size: 3em;
       text-align: center; }
+      .container .outdoorAct3imgs .img a {
+        text-decoration: none;
+        background-color: rgba(8, 8, 8, 0.596); }
       .container .outdoorAct3imgs .img p {
         margin-top: 118px;
         color: red; }
@@ -266,6 +325,9 @@
       width: 100%;
       font-size: 3em;
       text-align: center; }
+      .container .outdoorAct4imgs .img a {
+        text-decoration: none;
+        background-color: rgba(8, 8, 8, 0.596); }
       .container .outdoorAct4imgs .img p {
         margin-top: 118px;
         color: red; }
@@ -706,5 +768,32 @@ footer {
     font-family: "Rock Salt", cursive;
     text-align: center;
     font-size: 2em; }
+
+.form {
+  border: 1px solid black;
+  background: rgba(0, 0, 0, 0.712);
+  width: 500px;
+  height: auto;
+  margin-left: 30%;
+  padding: 50px;
+  margin-top: 100px; }
+  .form table tr td {
+    color: white; }
+
+.contFoot {
+  background-color: #e4d232;
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
+  margin-top: 150px; }
+  .contFoot h2 {
+    font-size: 3em;
+    margin-left: 52px;
+    margin-top: 24px; }
+  .contFoot h6 {
+    text-align: right;
+    float: right;
+    margin-top: -89px;
+    margin-right: 57px; }
 
 /*# sourceMappingURL=style.css.map */
